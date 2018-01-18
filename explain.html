@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/weui.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+	</head>
+
+	<body>
+		<div class="weui-panel">
+			<div class="weui-panel__bd">
+				<div class="weui-media-box weui-media-box_text">
+					<h4 class="weui-media-box__title">小学一年接(1/100)</h4>
+					<p class="weui-media-box__desc">1+1=？</p>
+					<ul class="weui-media-box__info">
+						<li class="weui-media-box__info__meta">小学数学</li>
+						<li class="weui-media-box__info__meta">难度1</li>
+						<li class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="weui-cells weui-cells_checkbox">
+			<label class="weui-cell weui-check__label result-error" for="a">
+                <div class="weui-cell__hd">
+                    <input type="checkbox" class="weui-check" name="a" id="a" checked="checked" disabled="">
+                    <i class="weui-icon-checked"></i>
+                </div>
+                <div class="weui-cell__bd">
+                    <p>A. 1</p>
+                </div>
+            </label>
+			<label class="weui-cell weui-check__label" for="b">
+                <div class="weui-cell__hd">
+                    <input type="checkbox" class="weui-check" name="b" id="b" >
+                    <i class="weui-icon-checked"></i>
+                </div>
+                <div class="weui-cell__bd">
+                    <p>B. 2</p>
+                </div>
+            </label>
+			<label class="weui-cell weui-check__label" for="c">
+                <div class="weui-cell__hd">
+                    <input type="checkbox" class="weui-check" name="c" id="c" >
+                    <i class="weui-icon-checked"></i>
+                </div>
+                <div class="weui-cell__bd">
+                    <p>C. 3</p>
+                </div>
+            </label>
+			<label class="weui-cell weui-check__label" for="d">
+                <div class="weui-cell__hd">
+                    <input type="checkbox" class="weui-check" name="d" id="d" >
+                    <i class="weui-icon-checked"></i>
+                </div>
+                <div class="weui-cell__bd">
+                    <p>D. 4</p>
+                </div>
+            </label>
+		</div>
+		
+		<article class="weui-article explain">
+			<section>
+				<h3>解析：</h3>
+				<p>因为A、C、D都不对，所以答案是B</p>
+			</section>
+		</article>
+		
+		<a href="result.html" class="weui-btn weui-btn_plain-primary">返回</a>
+		
+		
+		<div class="weui-tabbar">
+				<a href="question.html" class="weui-tabbar__item">
+					<i class=" fa fa-mortar-board weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">问答</p>
+				</a>
+				<a href="index.html" class="weui-tabbar__item weui-bar__item_on">
+					<i class=" fa fa-pencil-square weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">考试</p>
+				</a>
+				<a href="course.html" class="weui-tabbar__item">
+					<i class=" fa fa-book weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">教程</p>
+				</a>
+				<a href="user.html" class="weui-tabbar__item">
+					<i class=" fa fa-user weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">我的</p>
+				</a>
+		</div>
+		
+
+		
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/weui.min.js"></script>
+	</body>
+
+</html>
